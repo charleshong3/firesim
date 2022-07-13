@@ -8,7 +8,7 @@ import random
 import string
 import logging
 import os
-from fabric.api import prefix, local, run, env, lcd, parallel # type: ignore
+from fabric.api import prefix, local, run, env, lcd, parallel, settings # type: ignore
 from fabric.contrib.console import confirm # type: ignore
 from fabric.contrib.project import rsync_project # type: ignore
 
